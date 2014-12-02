@@ -18,16 +18,20 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  wpm
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  For Kids Who Can't Read Good And Wanna Learn To Do Other Stuff Good Too, we teach you that there's more to life than just being really, really, really good looking.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+    read faster. read more.
 
 ## Problem ##
   > Describe the problem your product solves.
-
+	Nearly a quarter of American adults had not read a single book in the past year. As in, they hadn't cracked a paperback, fired up a Kindle, or even hit play on an audiobook while in the car. The number of non-book-readers has nearly tripled since 1978.
+	
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
