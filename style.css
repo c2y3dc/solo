@@ -27,8 +27,10 @@ body, html{
 */}
 
 #words{
-	width: 300px;
-	height: 100px;
+	font-size: 21px;
+	font-family: "PT Serif", sans-serif;
+	width: 500px;
+	height: 200px;
 	margin: 0 auto;
 	border: none;
 	background-color: rgb(192,192,192);
