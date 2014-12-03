@@ -2,15 +2,27 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+
 <script src="reader.js"></script>
 </head>
+<h1 class="title" align='center'>Speed Read</h1>
 <body>
+  <div id='dark-screen'></div>
   <div class='main'>
+
     <div ng-app="reader" ng-controller="readerCtrl">
-        <div id="counter" align="center" > Word Count:{{ display }}</div>
-        <div id= "start" align="center" ng-click="increment()">-->Start/Speed up<--</div>
+<!--         <div id="counter" align="center" > Word Count:{{ display }}</div> -->
+        <div id="buttons" align="center">
+          <button style="background: url(prev.png)" id="prev" ng-click="prev()"></button>
+          <button style="background: url(play.png)" id= "start" ng-click="increment()"></button>
+          <button style="background: url(next.png)" id="next" ng-click="next()"></button>
+        </div>
+        <div align="center">
         <h1 id='word-display' align="center"> {{word}}</h1>
+      </div>
     </div>
   </div>
   <div align="center" class="textdiv">
