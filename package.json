@@ -1,0 +1,10 @@
+{
+  "name": "SPEED-READ",
+  "version": "0.0.1",
+  "description": "making decision easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "postinstall": "bower cache clean && bower install"
+  }
+}
